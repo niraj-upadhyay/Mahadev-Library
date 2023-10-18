@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*===== Variable Define =====*/
+
+:root {
+
+  --primary-color: #A82C48;
+  --secondry-color: #43121d;
+  --third-color: #f98169;
+  --white-color: #fff;
+  --text-color: #555;
+  --text-gray: #999;
+  --black-color: #000;
+  --primary-font: 'Roboto', sans-serif;
+  --secondry-font: 'Quicksand', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+body {
+  font-family: var(--primary-font);
+  font-size: 100%;
+  font-weight: 400;
+}
+
+/*
+==========================================
+   Header Design
+==========================================
+*/
+
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  
+
+  a:hover {
+    color: var(--primary-color) !important;
+  }
+
+
+
+  .navigation-wrap .nav-item {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+  }
+  
+  .navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+  }
+  
+  .nav-link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+  }
+  
+  .navigation-wrap .main-btn {
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+  }
+  
+  
+  /* Change navbar styling on scroll */
+  
+  .navigation-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
+    transition: all .15s ease-in-out 0s;
+  }
+  
+  .dropdown-menu {
+    background-color: var(--primary-color);
+  }
+
+  .message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+  /* Footer */
+
+
+  /*
+==========================================
+footer section Design
+==========================================
+*/
+.footer {
+
+    background: var(--primary-color);
+  
+  
+  }
+  
+  .footer .footer-link {
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+  }
+  
+  .footer .footer-link:hover {
+    color: var(--white-color) !important;
+  }
+  
+  .footer a i {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+  }
+  
+
+
+
+
+
+
